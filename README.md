@@ -31,6 +31,6 @@
 
 ![image](https://user-images.githubusercontent.com/73321593/210810255-629969bb-d0d2-4ebf-807a-2e6bbb94ef98.png)
 
-## Dodaj batch
+## Dodaj studente preko batcha
 
 ![image](https://user-images.githubusercontent.com/73321593/210810289-07cc3f40-35c6-4151-aaaa-8919f53831d1.png)
