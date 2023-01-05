@@ -1,0 +1,363 @@
+{
+  "testId" : "1-mojrepozitorijtest.gspec",
+  "name" : "mojRepozitorijTest.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  mojRepozitorijTest.gspec --url http://localhost/mojRepozitorij.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: mojRepozitorijTest.gspec included tags: ",
+          "status" : "info",
+          "time" : 1637099096983,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "mojRepozitorijTest.gspec",
+              "lineNumber" : 12
+            },
+            "objects" : [ {
+              "name" : "tabela",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 14
+                },
+                "name" : "width 98 to 100 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "tabela",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "tabela",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "98 to 100% [990 to 1011px]",
+                  "realDistance" : "100% [1011px]"
+                } ],
+                "highlight" : [ "tabela" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "mojRepozitorijTest.gspec",
+              "lineNumber" : 18
+            },
+            "objects" : [ {
+              "name" : "urlRepozitorija",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "urlRepozitorija", "tabela" ]
+              } ]
+            }, {
+              "name" : "labelaUrl",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 22
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "labelaUrl", "tabela" ]
+              } ]
+            }, {
+              "name" : "akademskaGodina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 24
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "akademskaGodina", "tabela" ]
+              } ]
+            }, {
+              "name" : "imenovanjeBrancheva",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "imenovanjeBrancheva", "tabela" ]
+              } ]
+            }, {
+              "name" : "btnPosalji",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "btnPosalji", "tabela" ]
+              } ]
+            }, {
+              "name" : "lblAkademska",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "lblAkademska", "tabela" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Left of section",
+            "place" : {
+              "filePath" : "mojRepozitorijTest.gspec",
+              "lineNumber" : 32
+            },
+            "objects" : [ {
+              "name" : "labelaUrl",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "left-of urlRepozitorija",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labelaUrl",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "urlRepozitorija",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "340px"
+                } ],
+                "highlight" : [ "labelaUrl", "urlRepozitorija" ]
+              } ]
+            }, {
+              "name" : "labelaImenovanje",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "left-of imenovanjeBrancheva",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "labelaImenovanje",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "imenovanjeBrancheva",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "306px"
+                } ],
+                "highlight" : [ "labelaImenovanje", "imenovanjeBrancheva" ]
+              } ]
+            }, {
+              "name" : "lblAkademska",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "left-of akademskaGodina",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "lblAkademska",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "akademskaGodina",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "328px"
+                } ],
+                "highlight" : [ "lblAkademska", "akademskaGodina" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "mojRepozitorijTest.gspec",
+              "lineNumber" : 42
+            },
+            "objects" : [ {
+              "name" : "urlRepozitorija",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "above akademskaGodina",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "urlRepozitorija",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "akademskaGodina",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "12px"
+                } ],
+                "highlight" : [ "urlRepozitorija", "akademskaGodina" ]
+              } ]
+            }, {
+              "name" : "akademskaGodina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "above imenovanjeBrancheva",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "akademskaGodina",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "imenovanjeBrancheva",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "11px"
+                } ],
+                "highlight" : [ "akademskaGodina", "imenovanjeBrancheva" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "mojRepozitorijTest.gspec",
+              "lineNumber" : 50
+            },
+            "objects" : [ {
+              "name" : "tabela",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "visible",
+                "highlight" : [ "tabela" ]
+              } ]
+            }, {
+              "name" : "urlRepozitorija",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 54
+                },
+                "name" : "visible",
+                "highlight" : [ "urlRepozitorija" ]
+              } ]
+            }, {
+              "name" : "akademskaGodina",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "visible",
+                "highlight" : [ "akademskaGodina" ]
+              } ]
+            }, {
+              "name" : "imenovanjeBrancheva",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "visible",
+                "highlight" : [ "imenovanjeBrancheva" ]
+              } ]
+            }, {
+              "name" : "labelaUrl",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "visible",
+                "highlight" : [ "labelaUrl" ]
+              } ]
+            }, {
+              "name" : "lblAkademska",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "mojRepozitorijTest.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "visible",
+                "highlight" : [ "lblAkademska" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "tabela" : {
+              "area" : [ 0, 0, 1011, 188 ]
+            },
+            "lblAkademska" : {
+              "area" : [ 11, 59, 118, 17 ]
+            },
+            "imenovanjeBrancheva" : {
+              "area" : [ 457, 94, 176, 30 ]
+            },
+            "labelaImenovanje" : {
+              "area" : [ 11, 101, 140, 17 ]
+            },
+            "urlRepozitorija" : {
+              "area" : [ 457, 11, 176, 30 ]
+            },
+            "btnPosalji" : {
+              "area" : [ 11, 136, 78, 39 ]
+            },
+            "labelaUrl" : {
+              "area" : [ 11, 17, 106, 17 ]
+            },
+            "akademskaGodina" : {
+              "area" : [ 457, 53, 176, 30 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1637099093762,
+        "type" : "node"
+      } ],
+      "time" : 1637099090154,
+      "type" : "node"
+    } ]
+  }
+}

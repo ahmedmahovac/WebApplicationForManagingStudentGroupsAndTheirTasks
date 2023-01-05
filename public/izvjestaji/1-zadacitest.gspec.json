@@ -1,0 +1,432 @@
+{
+  "testId" : "1-zadacitest.gspec",
+  "name" : "zadaciTest.gspec",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Simple check",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "check  zadaciTest.gspec --url http://localhost/zadaci.html --size 1024x768 --htmlreport izvjestaji",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: zadaciTest.gspec included tags: ",
+          "status" : "info",
+          "time" : 1637098951270,
+          "sections" : [ {
+            "name" : "Width section",
+            "place" : {
+              "filePath" : "zadaciTest.gspec",
+              "lineNumber" : 18
+            },
+            "objects" : [ {
+              "name" : "tabela",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 20
+                },
+                "name" : "width 98 to 100 % of body/width",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "tabela",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "tabela",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "98 to 100% [990 to 1011px]",
+                  "realDistance" : "100% [1011px]"
+                } ],
+                "highlight" : [ "tabela" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Inside section",
+            "place" : {
+              "filePath" : "zadaciTest.gspec",
+              "lineNumber" : 24
+            },
+            "objects" : [ {
+              "name" : "lblOdabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 26
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "lblOdabirVjezbe", "tabela" ]
+              } ]
+            }, {
+              "name" : "odabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "odabirVjezbe", "tabela" ]
+              } ]
+            }, {
+              "name" : "lblOdabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "lblOdabirZadatka", "tabela" ]
+              } ]
+            }, {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "odabirZadatka", "tabela" ]
+              } ]
+            }, {
+              "name" : "btnPosalji",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "btnPosalji", "tabela" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "komentar", "tabela" ]
+              } ]
+            }, {
+              "name" : "lblKomentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "inside tabela",
+                "meta" : [ ],
+                "highlight" : [ "lblKomentar", "tabela" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Left of section",
+            "place" : {
+              "filePath" : "zadaciTest.gspec",
+              "lineNumber" : 40
+            },
+            "objects" : [ {
+              "name" : "lblOdabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 42
+                },
+                "name" : "left-of odabirVjezbe",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "lblOdabirVjezbe",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "odabirVjezbe",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "393px"
+                } ],
+                "highlight" : [ "lblOdabirVjezbe", "odabirVjezbe" ]
+              } ]
+            }, {
+              "name" : "lblOdabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "left-of odabirZadatka",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "lblOdabirZadatka",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "386px"
+                } ],
+                "highlight" : [ "lblOdabirZadatka", "odabirZadatka" ]
+              } ]
+            }, {
+              "name" : "lblOdabirVerzije",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "left-of odabirVerzije",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "lblOdabirVerzije",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "odabirVerzije",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "391px"
+                } ],
+                "highlight" : [ "lblOdabirVerzije", "odabirVerzije" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Above section",
+            "place" : {
+              "filePath" : "zadaciTest.gspec",
+              "lineNumber" : 50
+            },
+            "objects" : [ {
+              "name" : "odabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "above odabirZadatka",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirVjezbe",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "13px"
+                } ],
+                "highlight" : [ "odabirVjezbe", "odabirZadatka" ]
+              } ]
+            }, {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 54
+                },
+                "name" : "above odabirVerzije",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "odabirZadatka",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "odabirVerzije",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "12px"
+                } ],
+                "highlight" : [ "odabirZadatka", "odabirVerzije" ]
+              } ]
+            }, {
+              "name" : "errorsLog",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "above bezGresaka",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "errorsLog",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "bezGresaka",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : ">= 0px",
+                  "realDistance" : "17px"
+                } ],
+                "highlight" : [ "errorsLog", "bezGresaka" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Visible section",
+            "place" : {
+              "filePath" : "zadaciTest.gspec",
+              "lineNumber" : 60
+            },
+            "objects" : [ {
+              "name" : "tabela",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "visible",
+                "highlight" : [ "tabela" ]
+              } ]
+            }, {
+              "name" : "odabirVjezbe",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 64
+                },
+                "name" : "visible",
+                "highlight" : [ "odabirVjezbe" ]
+              } ]
+            }, {
+              "name" : "odabirZadatka",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 66
+                },
+                "name" : "visible",
+                "highlight" : [ "odabirZadatka" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 72
+                },
+                "name" : "visible",
+                "highlight" : [ "odabirZadatka" ]
+              } ]
+            }, {
+              "name" : "errorsLog",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 68
+                },
+                "name" : "visible",
+                "highlight" : [ "errorsLog" ]
+              } ]
+            }, {
+              "name" : "komentar",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 70
+                },
+                "name" : "visible",
+                "highlight" : [ "komentar" ]
+              } ]
+            }, {
+              "name" : "btnPosalji",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "visible",
+                "highlight" : [ "btnPosalji" ]
+              } ]
+            }, {
+              "name" : "btnDodajRezultateTesta",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "zadaciTest.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "visible",
+                "highlight" : [ "btnDodajRezultateTesta" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "odabirVjezbe" : {
+              "area" : [ 496, 16, 66, 18 ]
+            },
+            "lblOdabirVerzije" : {
+              "area" : [ 16, 78, 89, 17 ]
+            },
+            "btnDodajRezultateTesta" : {
+              "area" : [ 16, 361, 220, 39 ]
+            },
+            "komentar" : {
+              "area" : [ 496, 107, 238, 62 ]
+            },
+            "errorsLog" : {
+              "area" : [ 496, 254, 238, 62 ]
+            },
+            "lblKomentar" : {
+              "area" : [ 16, 132, 62, 17 ]
+            },
+            "odabirVerzije" : {
+              "area" : [ 496, 77, 66, 18 ]
+            },
+            "odabirZadatka" : {
+              "area" : [ 496, 47, 62, 18 ]
+            },
+            "tabela" : {
+              "area" : [ 5, 5, 1011, 233 ]
+            },
+            "bezGresaka" : {
+              "area" : [ 496, 333, 13, 13 ]
+            },
+            "lblOdabirVjezbe" : {
+              "area" : [ 16, 17, 87, 17 ]
+            },
+            "btnPosalji" : {
+              "area" : [ 16, 186, 220, 39 ]
+            },
+            "lblOdabirZadatka" : {
+              "area" : [ 16, 47, 94, 17 ]
+            }
+          },
+          "screenshot" : "layout-1-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1637098947529,
+        "type" : "node"
+      } ],
+      "time" : 1637098943839,
+      "type" : "node"
+    } ]
+  }
+}

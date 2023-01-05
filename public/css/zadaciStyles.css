@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 22px;
+}
+
+table, td {
+    padding: 5px;
+}
+
+table {
+    font-size: 0.7rem;
+    width: 100%;
+}
+
+
+button {
+    background-color: gold;
+    padding: 5px;
+    font-size: 1rem;
+    color: lightyellow;
+    min-width: 10rem;
+}
+
+input {
+    padding: 5px;
+}
+
+
+form {
+    background-color:  lightgoldenrodyellow;
+    margin: 5px;
+    width: 100%;
+}

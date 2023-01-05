@@ -1,0 +1,65 @@
+@objects
+	body body
+	labelaUrl #lblUrl
+	urlRepozitorija #urlRepozitorija
+	akademskaGodina #akademskaGodina
+	labelaImenovanje #lblImenovanje
+	lblAkademska #lblAkademska
+	imenovanjeBrancheva #imenovanjeBrancheva
+	btnPosalji #btnPosalji
+	tabela #tabela
+
+= Width section =
+	tabela:
+		width 98 to 100 % of body/width
+
+= Height section =
+
+= Inside section =
+	urlRepozitorija:
+		inside tabela
+	labelaUrl:
+		inside tabela
+	akademskaGodina:
+		inside tabela
+	imenovanjeBrancheva:
+		inside tabela
+	btnPosalji:
+		inside tabela
+	lblAkademska:
+		inside tabela
+
+= Left of section =
+	labelaUrl:
+		left-of urlRepozitorija
+	labelaImenovanje:
+		left-of imenovanjeBrancheva
+	lblAkademska:
+		left-of akademskaGodina
+
+= Right of section =
+
+= Above section =
+	urlRepozitorija:
+		above akademskaGodina
+	akademskaGodina:
+		above imenovanjeBrancheva
+
+= Below section =
+	
+= Visible section =
+	tabela:
+		visible
+	urlRepozitorija:
+		visible
+	akademskaGodina:
+		visible
+	imenovanjeBrancheva:
+		visible
+	labelaUrl:
+		visible
+	lblAkademska:
+		visible
+
+= Inside partly section =
+	

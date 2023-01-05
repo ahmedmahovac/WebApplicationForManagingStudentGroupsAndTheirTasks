@@ -1,0 +1,24 @@
+{
+  "name": "spirala3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "chai": "^4.3.4",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "mocha": "^9.1.3",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.14.0",
+    "sinon": "^12.0.1"
+  },
+  "devDependencies": {
+    "chai-http": "^4.3.0"
+  }
+}

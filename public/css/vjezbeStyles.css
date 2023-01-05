@@ -1,0 +1,148 @@
+
+@media screen {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+    button {
+        display: block;
+        margin: 1px auto;
+
+    }
+
+
+    #container {
+        width: 100%;
+        }
+    
+        html {
+            font-size: 22px;
+       }
+
+        div {
+            text-align: center;
+            overflow: hidden;
+        }
+
+
+         
+
+
+
+    #meni {
+        background-color: cadetblue;
+        height: 100px;
+        }
+      
+      
+        #meni ul li a{
+            text-decoration: underline;
+            color: whitesmoke;
+            font-size: 0.9rem;
+            padding: 5px;
+        }
+
+    #meni ul {
+        list-style-type: none;
+    }
+
+
+    #odabirVjezbe {
+        background-color: lightblue;
+        color: whitesmoke;
+    }
+
+    #odabirVjezbe div {
+        background-color: dodgerblue;
+        margin: 5px;
+    }
+
+
+    #odabirVjezbe #zadaci  {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+  
+    
+
+    #odabirVjezbe #zadaci {
+        background-color: lightblue;
+    }
+
+    #odabirVjezbe  span {
+        background-color: dodgerblue;
+        margin: 5px;
+        font-size: 0.7rem;
+        padding: 3px;
+    }
+
+
+
+    #zadaci {
+        text-align: left;
+    }
+
+    #odabirVjezbe #zadaci {
+        padding: 5px;
+    }
+
+
+    #grafContainer {
+        background-color: cadetblue;
+    }
+
+
+    .graf {
+        background-color: white;
+    }
+
+    .grafSlika {
+        width: 100%;
+        height: auto;
+    }
+
+    .graf h2 {
+        color: lightseagreen;
+    }
+
+    
+
+}
+
+@media screen and (min-width: 500px) {
+    #meni ul li{
+        display: inline-block;
+    }
+
+    #meni {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 800px) {
+
+    #lowerContainer{
+        display: flex;
+    }
+
+#odabirVjezbe {
+    float:left;
+    width: 30%;
+}
+
+#grafContainer {
+    float: right;
+    width: 70%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(2,1fr);
+}
+
+}
+

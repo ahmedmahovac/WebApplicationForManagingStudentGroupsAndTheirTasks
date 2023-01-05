@@ -1,0 +1,79 @@
+@objects
+	body body
+	lblOdabirVjezbe #lblOdabirVjezbe
+	odabirVjezbe #odabirVjezbe
+	lblOdabirZadatka #lblOdabirZadatka
+	odabirZadatka #odabirZadatka
+	lblOdabirVerzije #lblOdabirVerzije
+	lblKomentar #lblKomentar
+	komentar #komentar
+	btnPosalji #btnPosalji
+	errorsLog #errorsLog
+	lblBezGresaka #lblBezGresaka
+	bezGresaka #bezGresaka
+	btnDodajRezultateTesta #btnDodajRezultateTesta
+	tabela #table
+	odabirVerzije #odabirVerzije
+
+= Width section =
+	tabela:
+		width 98 to 100 % of body/width
+
+= Height section =
+
+= Inside section =
+	lblOdabirVjezbe:
+		inside tabela
+	odabirVjezbe:
+		inside tabela
+	lblOdabirZadatka:
+		inside tabela
+	odabirZadatka:
+		inside tabela
+	btnPosalji:
+		inside tabela
+	komentar:
+		inside tabela
+	lblKomentar:
+		inside tabela
+
+= Left of section =
+	lblOdabirVjezbe:
+		left-of odabirVjezbe
+	lblOdabirZadatka:
+		left-of odabirZadatka
+	lblOdabirVerzije:
+		left-of odabirVerzije
+
+= Right of section =
+
+= Above section =
+	odabirVjezbe:
+		above odabirZadatka
+	odabirZadatka:
+		above odabirVerzije
+	errorsLog:
+		above bezGresaka
+
+= Below section =
+	
+= Visible section =
+	tabela:
+		visible
+	odabirVjezbe:
+		visible
+	odabirZadatka:
+		visible
+	errorsLog:
+		visible
+	komentar:
+		visible
+	odabirZadatka:
+		visible
+	btnPosalji:
+		visible
+	btnDodajRezultateTesta:
+		visible
+
+= Inside partly section =
+	

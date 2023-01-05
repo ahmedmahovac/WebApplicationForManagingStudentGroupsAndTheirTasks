@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Zadaci</title>
+        <link rel="stylesheet" href="zadaciStyles.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form>
+            <table id="table">
+                <tr>
+                    <td>
+                        <label for="odabirVjezbe" id="lblOdabirVjezbe">Odabir vježbe</label>
+                    </td>
+                    <td>
+                        <select id="odabirVjezbe">
+                            <option value="1">Prva</option>
+                            <option value="2">Druga</option>
+                            <option value="3">Treca</option>
+                            <option value="4">Cetvrta</option>
+                            <option value="5">Peta</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="lblOdabirZadatka" for="odabirZadatka">Odabir zadatka</label>
+                    </td>
+                    <td>
+                        <select id="odabirZadatka">
+                            <option value="1">Prvi</option>
+                            <option value="2">Drugi</option>
+                            <option value="3">Treci</option>
+                            <option value="4">Cetvrti</option>
+                            <option value="5">Peti</option>
+                        </select>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label id="lblOdabirVerzije" for="odabirVerzije">Odabir verzije</label>
+                    </td>
+                    <td>
+                        <select id="odabirVerzije">
+                            <option value="1">Prva</option>
+                            <option value="2">Druga</option>
+                            <option value="3">Treca</option>
+                            <option value="4">Cetvrta</option>
+                            <option value="5">Peta</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                    <label id="lblKomentar" for="komentar">Komentar</label>
+                    </td>
+                    <td>
+                    <textarea id="komentar" rows="4" cols="30"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button id="btnPosalji" type="submit">Pošalji</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label for="errorsLog">Errors log</label>
+                    </td>
+                    <td>
+                        <textarea id="errorsLog" rows="4" cols="30"></textarea>
+                    </td>
+                    <tr>
+                        <td>
+                            <label id="lblBezGresaka" for="bezGresaka">Bez grešaka</label>
+                        </td>
+                        <td>
+                            <input id="bezGresaka" type="checkbox">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="btnDodajRezultateTesta" type="submit">Dodaj rezultate testa</button>
+                        </td>
+                    </tr>
+            </table>
+        </form>
+    </body>
+</html>
